@@ -13,9 +13,21 @@
         {
           "origin": "https://n"
         }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow $(PRODUCT_NAME) to use Face ID."
+        }
       ]
     ],
     "name": "biometrics",
-    "slug": "biometrics"
+    "slug": "biometrics",
+    "android": {
+      "package": "com.merveillevaneck.biometrics"
+    },
+    "ios": {
+      "bundleIdentifier": "com.merveillevaneck.biometrics"
+    }
   }
 }
